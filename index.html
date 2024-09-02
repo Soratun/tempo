@@ -13,15 +13,21 @@
   <body>
     <div class="card">
       <form>
-        <div class="Name">
-          <label for="FirstName">First Name</label>
-          <input type="text" />
-          <label for="LastName">Last Name</label>
-          <input type="text" />
+        <div class="col">
+          <div>
+            <label for="FirstName">First Name</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="LastName">Last Name</label>
+            <input type="text" />
+          </div>
         </div>
-        <div class="Birth">
-          <label for="BirthDate">Birth Date</label>
-          <input type="date" />
+        <div class="col">
+          <div>
+            <label for="BirthDate">Birth Date</label>
+            <input type="date" />
+          </div>
           <div class="Gender">
             <label for="Gender">Gender</label>
             <input type="radio" id="Male" name="Gender" value="Male" /><label
@@ -36,11 +42,15 @@
             /><label for="Female">Female</label>
           </div>
         </div>
-        <div class="details">
-          <label for="Email">Email</label>
-          <input type="text" />
-          <label for="PhoneNumber">Phone Number</label>
-          <input type="text" />
+        <div class="col">
+          <div>
+            <label for="Email">Email</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="text" />
+          </div>
         </div>
         <label for="Subject">Subject</label>
         <select name="Subject" id="Subject">
@@ -49,8 +59,9 @@
           <option value="CSS">CSS</option>
           <option value="JS">JS</option>
         </select>
-
-        <button type="submit">Submit</button>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   </body>
