@@ -23,3 +23,43 @@ html, body {
     margin-bottom: 40px;
 }
 
+.rowName{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.rowBirth{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+    .BirthDate{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Gender{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.rowEmail{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
