@@ -127,6 +127,7 @@ form {
     select{
         height: 2.5rem;
         border-radius: 8px;
+        padding: 0.5rem;
     }
 }
 
